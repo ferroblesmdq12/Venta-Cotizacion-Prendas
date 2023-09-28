@@ -1,5 +1,7 @@
 package main;
 
+/* entramos al maven repository y copiamos la dependencia que corresponde a nuestro motor de bases de datos (mysql workbench 8.0) */
+
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.InputMismatchException;

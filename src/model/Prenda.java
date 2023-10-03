@@ -81,6 +81,24 @@ public class Prenda {
 	public double getPrecio() {
 		return precio;
 	}
+
+
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+
+
+	public void setNombrePrenda(String nombrePrenda) {
+		this.nombrePrenda = nombrePrenda;
+	}
+
+
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
 	
 	
 	

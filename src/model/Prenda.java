@@ -37,12 +37,18 @@ public class Prenda {
 	 * @param precio precio de la prenda
 	 * ***************************************/
 	
-	public Prenda(int codigo, String nombrePrenda, double precio) {
-		this.codigo = codigo;
+//	public Prenda( int codigo, String nombrePrenda, double precio) {
+	public Prenda(String nombrePrenda, double precio) {
+		
 		this.nombrePrenda = nombrePrenda;
 		this.precio = precio;
 	}
 
+public Prenda(int codigo,String nombrePrenda, double precio) {
+		this.codigo = codigo;
+		this.nombrePrenda = nombrePrenda;
+		this.precio = precio;
+	}
 
 
 	@Override
